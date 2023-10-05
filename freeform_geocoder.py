@@ -16,6 +16,7 @@ import dash_leaflet.express as dlx
 
 # Initialize the Dash app
 app = dash.Dash(__name__)
+server = app.server
 
 # Define the app layout
 app.layout = html.Div([
