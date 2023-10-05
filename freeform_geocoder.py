@@ -23,7 +23,7 @@ app.layout = html.Div([
     html.H1("Geocoding App"),
     
     # Input for API key
-    dcc.Input(id='api-key', type='text', placeholder='Enter Here API Key'),
+    dcc.Input(id='api-key', type='text', placeholder='Enter Here API Key',autocomplete='off'),
     
     # File upload confirmation message
     html.Div(id='file-upload-status', style={'margin': '10px'}),
